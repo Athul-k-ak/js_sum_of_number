@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #272626; 
+}
+
+/* Container for form elements */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(159, 205, 206);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Styling for input field */
+#numberInput {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #090404;
+    border-radius: 5px;
+}
+
+/* Styling for submit button */
+#submitBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #048018;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for result */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}

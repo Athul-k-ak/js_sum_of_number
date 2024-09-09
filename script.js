@@ -14,6 +14,6 @@ submitBtn.onclick = () => {
         for (let i = 1; i <= num; i++) {
             sum += i;  // Calculate sum of numbers
         }
-        result.textContent = `Sum of numbers up to ${num} is : ${sum}`;  // Display the result
+        result.textContent = `Sum of numbers up to ${num} is ${sum}`;  // Display the result
     }
 };
